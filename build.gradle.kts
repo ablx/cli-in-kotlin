@@ -1,3 +1,5 @@
+import groovy.xml.dom.DOMCategory.attributes
+
 plugins {
     kotlin("jvm") version "1.9.0"
     application
@@ -24,5 +26,6 @@ kotlin {
 }
 
 application {
-    mainClass.set("MainKt")
+    mainClass.set("Parser")
+
 }
